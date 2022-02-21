@@ -2,7 +2,7 @@ import './styles.css';
 import {ReactComponent as MainImage} from './main.svg';
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
- 
+
 
 
 function Home() {
@@ -23,7 +23,7 @@ function Home() {
             <Link to='/orders' className='home-btn-order'>
                 FAZER PEDIDO
             </Link>
-            
+
             </div>
         <div className='home-image'>
             <MainImage />

@@ -1,15 +1,18 @@
-import { Route, Routes } from 'react-router-dom';
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import './App.css';
-import Home from './Home';
-import Navbar from './Navbar';
-import Routess from './Routess';
+import Routes from './Routess';
+
 
 function App() {
   return (
     <>
-<Routess />
-</>
-  );
+      <Routes />
+      <ToastContainer />
+
+    </>
+   );
 }
 
 export default App;
