@@ -3,7 +3,7 @@ import Home from "./Home";
 import Orders from "./Orders";
 import Navbar from "./Navbar";
 
-function Routers(){
+function Routess(){
     return(
         <BrowserRouter>
                  <Navbar />
@@ -20,4 +20,4 @@ function Routers(){
 
 }
 
-export default Routers;
+export default Routess;
